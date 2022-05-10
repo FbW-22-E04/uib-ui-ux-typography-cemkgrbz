@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600&display=swap');
+
+body{
+    background-image: url(/img/bg.jpg);
+    
+
+}
+
+
+li {
+    display: inline-block;
+    padding: 1rem;
+    color: #8a0f0f;
+}
+ nav {
+     margin: 1rem auto;
+     text-align: center;
+ }
+
+ .nav-list {
+    text-decoration: none;
+    color: #8a0f0f;
+    font-weight: bold;
+ }
+
+ .nav-list:hover {
+     border-top: 1px solid;
+ } 
+
+ .nav-list:active {
+     color: #f52f2f;
+     border-top: 1px solid;
+
+ }
+
+ .middle {
+     width: 70%;
+     background-color: rgba(255, 255, 255, 0.5);
+     border-radius: 40px;
+     margin: auto;
+ }
+
+ h1 {
+     text-align: center;
+     padding: 2rem;
+     font-size: 40px;
+     font-family: 'IBM Plex Serif', serif;
+     margin-bottom: 2rem;
+     
+ }
+
+ h3 {
+     padding-bottom: 1rem;
+     padding-left: 1rem;
+     text-transform: uppercase;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin-bottom: 1rem;
+ }
+
+ p,.link-style {
+     padding: 1rem;
+     font-family: 'IBM Plex Serif', serif;
+     font-size: 16px;
+     line-height: 1.5rem;
+ }
+
+ .link-style {
+    font-style: italic;
+    color: #8a0f0f;
+    text-decoration: none;
+    font-size: 20px;
+ }
+
+ .link-style:hover {
+     text-decoration: underline;
+     color: #f52f2f;
+ }
+
+ .link-style:active {
+     color: #2e21e7;
+ }
+
+ .sec1 {
+     width: 70%;
+     margin: auto;
+     border-left: 1px solid rgb(145, 145, 145) ;
+ }
+
+ .sec2,
+ .sec3,
+ .sec4 {
+    width: 70%;
+    margin: auto;
+    border-left: 1px solid rgb(145, 145, 145) ;
+    margin-top: 3rem;
+}
+
+.sec4 {
+    padding-bottom: 3rem;
+}
+
+.author {
+    padding-left: 2rem;
+    padding-bottom: 0; 
+
+}
+
+footer {
+    background-color: rgba(136, 136, 136, 0.5);
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+}
+
+.back-to {
+    text-decoration: none;
+    font-size: 22px;
+    color: #8a0f0f;
+}
+
+.back-to:hover {
+    background-color: rgba(255, 255, 255, 0.550);
+    padding: 0.5rem;
+    text-decoration: underline;
+}
+
+.back-to:active {
+    color: #2e21e7;
+    background-color: rgba(255, 255, 255, 0.550);
+    padding: 0.5rem;
+    text-decoration: underline;
+}
